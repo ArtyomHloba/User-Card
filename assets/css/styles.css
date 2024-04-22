@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Inter', sans-serif;
+    background-color: #E6EDEF ;
+
+    padding: 20px;
+  }
+
+  .user-card{
+    max-width: 350px;
+    min-width: 200px;
+    width: 100%;
+    background-color: #FFF9F9;
+    border-radius: 15px;
+    box-shadow: 0 0 10px gray;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .user-photo{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .user-name{
+    font-weight: 800;
+    color: #515B34;
+    font-size: 25px; 
+  }
+
+  .profession{
+    color: #D97961;
+    font-weight: 800;
+    font-size: 15px;
+  }
+
+  .text-about-prof{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .contact-title{
+    color: #515B34 ;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  .links{
+    display: flex;
+    gap: 10px;
+
+    background-color: white;
+  }
+
+  .social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+
+  .line{
+    border: 1px solid rgba(154, 154, 154, 1);
+    max-width: 350px;
+    min-width: 200px;
+    width: 100%;
+  }
+
+  .btn-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  
+    max-width: 350px;
+    min-width: 200px;
+    width: 100%;
+  }
+
+  .contact-me-btn{
+    color: #ffff;
+    text-decoration: none;
+    background-color: #806F51;
+    border: none;
+    padding: 5px 0;
+    cursor: pointer;
+
+    width: 150px;
+  }
+
+  .hire-me-btn{
+    color: #ffff;
+    text-decoration: none;
+    background-color: #D97961;
+    border: none;
+    padding: 5px 0;
+    
+    cursor: pointer;
+    width: 150px;
+  }
