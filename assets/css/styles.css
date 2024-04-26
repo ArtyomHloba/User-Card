@@ -76,41 +76,30 @@
     height: 30px;
   }
 
-  .line{
-    border: 1px solid rgba(154, 154, 154, 1);
-    max-width: 350px;
-    min-width: 200px;
-    width: 100%;
-  }
-
   .btn-container{
     display: flex;
     justify-content: space-around;
     gap: 10px;
-  
-    max-width: 350px;
-    min-width: 200px;
+    
+    border-top: 1px solid black;
+    padding-top: 20px;
     width: 100%;
   }
 
-  .contact-me-btn{
+  .contact-me-btn,
+  .hire-me-btn {
     color: #ffff;
     text-decoration: none;
-    background-color: #806F51;
     border: none;
     padding: 5px 0;
-    cursor: pointer;
-
-    width: 150px;
+    width: 100%;
   }
-
-  .hire-me-btn{
-    color: #ffff;
-    text-decoration: none;
-    background-color: #D97961;
-    border: none;
-    padding: 5px 0;
-    
-    cursor: pointer;
-    width: 150px;
+  
+  .contact-me-btn {
+    background-color: #806f51;
   }
+  
+  .hire-me-btn {
+    background-color: #d97961;
+  }
+  
