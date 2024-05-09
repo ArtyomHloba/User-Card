@@ -10,96 +10,117 @@
   }
 
   .user-card{
-    max-width: 350px;
+    max-width: 300px;
     min-width: 200px;
     width: 100%;
-    background-color: #FFF9F9;
-    border-radius: 15px;
-    box-shadow: 0 0 10px gray;
-    padding: 15px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 0 5px gray;
+    padding: 20px 10px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 15px;
   }
-
-  .user-photo{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-
-  .user-name{
-    font-weight: 800;
-    color: #515B34;
-    font-size: 25px; 
-  }
-
-  .profession{
-    color: #D97961;
-    font-weight: 800;
-    font-size: 15px;
-  }
-
-  .text-about-prof{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-  }
-
-  .contact-title{
-    color: #515B34 ;
-    font-weight: 700;
+  
+  .dots{
+    color: gray;
+    margin-left: 100%;
+    padding-right: 20px;
     font-size: 25px;
   }
 
-  .links{
+  .user-inform{
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 10px;
+  }
 
-    background-color: white;
+  .user-photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .user-name{
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .post{
+    color: gray;
+    font-size: 12px;
+  }
+
+  .statistic-cont,
+  .statistic-container{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .stat-style{
+    color: gray;
+    font-weight: 300;
+    font-size: 13px;
+  }
+
+  .stat-style2{
+    color: black;
+    font-weight: 400;
+  }
+
+  .main-text{
+    color: gray;
+    font-size: 12px;
   }
 
   .social-links{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
     align-items: center;
-    
-    text-decoration: none;
-    color: black;
-    border: 1.5px solid black;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    gap: 15px;
   }
 
-  .btn-container{
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
-    
-    border-top: 1px solid black;
-    padding-top: 20px;
-    width: 100%;
+  .link-twit{
+    color: #87CEEB;
   }
 
-  .contact-me-btn,
-  .hire-me-btn {
-    color: #ffff;
+  .link-facebook{
+    color: blue;
+  }
+
+  .link-google{
+    color: coral;
+  }
+
+  .link-be{
+    color: blueviolet;
+  }
+
+
+  .btn{
     text-decoration: none;
-    border: none;
-    padding: 5px 0;
-    width: 100%;
+    background-color: white;
+    color: gray;
+    padding: 15px 50px;
+    border-radius: 20px;
+    border: 0.5px solid grey;
   }
-  
-  .contact-me-btn {
-    background-color: #806f51;
+
+  .btn:hover{
+    background-color: gray;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 2px 2px 7px 1px gray;
   }
-  
-  .hire-me-btn {
-    background-color: #d97961;
-  }
-  
