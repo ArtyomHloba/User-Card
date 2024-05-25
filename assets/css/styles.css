@@ -3,124 +3,81 @@
   }
 
   body{
-    font-family: 'Inter', sans-serif;
-    background-color: #E6EDEF ;
-
+    font-family: Lato, sans-serif;
+    background-color: #A79AE0;
     padding: 20px;
+    color: #252525;
+  }
+
+  a{
+    text-decoration: none;
   }
 
   .user-card{
     max-width: 300px;
     min-width: 200px;
-    width: 100%;
-    background-color: white;
-    border-radius: 2px;
-    box-shadow: 0 0 5px gray;
-    padding: 20px 10px;
+    border-radius: 20px;
+    background-color: #FFFF;
 
+    padding: 10px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 15px;
   }
-  
-  .dots{
-    color: gray;
-    margin-left: 100%;
-    padding-right: 20px;
-    font-size: 25px;
-  }
 
-  .user-inform{
-    width: 100%;
+  .logo{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    position: absolute;
+    left: 30px;
   }
 
-  .user-photo{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    object-fit: cover;
+  .small_logo{
+    width: 30px;
+    height: 30px;
   }
 
-  .user-name{
-    color: black;
-    font-weight: 400;
-    font-size: 20px;
+  .user-logo{
+    width: 150px;
+    height: 150px;
   }
 
-  .post{
-    color: gray;
+  .name-titile{
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .job{
+    font-size: 18px;
+  }
+
+  .about-me{
+    font-size: 15px;
+  }
+
+  .gmail{
     font-size: 12px;
-  }
-
-  .statistic-cont,
-  .statistic-container{
-    width: 100%;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 5px;
-  }
-
-  .stat-style{
-    color: gray;
-    font-weight: 300;
-    font-size: 13px;
-  }
-
-  .stat-style2{
-    color: black;
     font-weight: 400;
+    color: white;
+    background-color: #26235C;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.3s;
   }
 
-  .main-text{
-    color: gray;
-    font-size: 12px;
+  .gmail:hover{
+    background-color: #A79AE0;
+    color: white;
   }
 
-  .social-links{
+  .links{
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    gap: 15px;
+    gap: 20px;
   }
 
-  .link-twit{
-    color: #87CEEB;
-  }
-
-  .link-facebook{
-    color: blue;
-  }
-
-  .link-google{
-    color: coral;
-  }
-
-  .link-be{
-    color: blueviolet;
-  }
-
-
-  .btn{
-    text-decoration: none;
-    background-color: white;
-    color: gray;
-    padding: 15px 50px;
-    border-radius: 20px;
-    border: 0.5px solid grey;
-  }
-
-  .btn:hover{
-    background-color: gray;
-    color: white;
-    transition: 0.5s;
-    box-shadow: 2px 2px 7px 1px gray;
+  .links-style{
+    color: #26235C;
+    font-size: 20px;
   }
