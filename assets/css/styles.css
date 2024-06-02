@@ -3,81 +3,89 @@
   }
 
   body{
-    font-family: Lato, sans-serif;
-    background-color: #A79AE0;
+    font-family: 'Inter', sans-serif;
     padding: 20px;
-    color: #252525;
+    background-color: #3B3F5C;
   }
 
-  a{
-    text-decoration: none;
-  }
+  .card{
+    max-width: 250px;
+    min-width: 150px;
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
 
-  .user-card{
-    max-width: 300px;
-    min-width: 200px;
-    border-radius: 20px;
-    background-color: #FFFF;
-
-    padding: 10px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 15px;
+    gap: 10px;
+    padding: 20px 10px;
   }
 
-  .logo{
-    display: flex;
-    position: absolute;
-    left: 30px;
+  .user-photo{
+    width: 80px;
+    height: 80px;
   }
 
-  .small_logo{
-    width: 30px;
-    height: 30px;
-  }
-
-  .user-logo{
-    width: 150px;
-    height: 150px;
-  }
-
-  .name-titile{
-    font-weight: 700;
-    font-size: 30px;
-  }
-
-  .job{
+  .user-name{
+    color: #3B3F5C;
     font-size: 18px;
+    font-weight: 600;
+  }
+
+  .stars{
+    color: orange;
+    font-size: 10px;
+  }
+
+  .profession{
+    color: gray;
+    font-size: 12px;
+    font-weight: 400;
   }
 
   .about-me{
-    font-size: 15px;
+    font-size: 10px;
+    color: gray;
+    font-weight: 300;
   }
 
-  .gmail{
-    font-size: 12px;
-    font-weight: 400;
+  .follow-btn{
+    text-decoration: none;
+    background-color: #5D5FEF;
     color: white;
-    background-color: #26235C;
-    padding: 10px 15px;
-    border-radius: 10px;
-    transition: 0.3s;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 8px 30px;
   }
 
-  .gmail:hover{
-    background-color: #A79AE0;
+  .follow-btn:hover{
+    background-color: orange;
     color: white;
+    transition: 0.5s;
   }
 
-  .links{
+  .count-container,
+  .stat-container{
+    width: 70%;
+
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
   }
 
-  .links-style{
-    color: #26235C;
-    font-size: 20px;
+  .count{
+    color: #3B3F5C;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .stat{
+    color: gray;
+    font-size: 10px;
+    font-weight: 400;
   }
