@@ -6,86 +6,83 @@
     font-family: 'Inter', sans-serif;
     padding: 20px;
     background-color: #3B3F5C;
+
+    display: flex;
+    gap: 20px;
+  }
+
+  .boots{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+
+    max-width: 100%;
+  }  
+
+  a{
+    text-decoration: none;
   }
 
   .card{
     max-width: 250px;
     min-width: 150px;
-    background-color: #FFFFFF;
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0 0 10px white;
+    background-color: white;
+    padding: 10px 0;
 
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+  }
+
+  .text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+
+    padding-left: 15px;
+  }
+
+  .bestseller{
+    color: #B40404;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .model{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .colors,
+  .buty{
+    color: gray;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .price{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .container-btn{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 10px;
-    padding: 20px 10px;
   }
 
-  .user-photo{
-    width: 80px;
-    height: 80px;
-  }
-
-  .user-name{
-    color: #3B3F5C;
-    font-size: 18px;
-    font-weight: 600;
-  }
-
-  .stars{
-    color: orange;
-    font-size: 10px;
-  }
-
-  .profession{
-    color: gray;
-    font-size: 12px;
-    font-weight: 400;
-  }
-
-  .about-me{
-    font-size: 10px;
-    color: gray;
-    font-weight: 300;
-  }
-
-  .follow-btn{
-    text-decoration: none;
-    background-color: #5D5FEF;
-    color: white;
-    border-radius: 2px;
-    font-size: 10px;
-    font-weight: 500;
-    padding: 8px 30px;
-  }
-
-  .follow-btn:hover{
-    background-color: orange;
-    color: white;
+  .buy{
+    color: black;
+    background-color: #81F781;
+    padding: 5px 20px;
+    border-radius: 15px;
     transition: 0.5s;
   }
 
-  .count-container,
-  .stat-container{
-    width: 70%;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 5px;
-  }
-
-  .count{
-    color: #3B3F5C;
-    font-size: 12px;
-    font-weight: 600;
-  }
-
-  .stat{
-    color: gray;
-    font-size: 10px;
-    font-weight: 400;
+  .buy:hover{
+    background-color: #E0F8F7;
+    color: black;
   }
